@@ -1,0 +1,1115 @@
+{
+  "Rose___Healthy": {
+    "species": "Rose (Rosa)",
+    "condition_name": "Healthy Rose Plant",
+    "category": "Healthy",
+    "severity": "healthy",
+    "description": "The rose foliage appears vibrant, rich green, and robust with no detectable fungal lesions, pests, or physiological stress.",
+    "visual_symptoms": [
+      "Lush, glossy deep-green leaves with crisp serrated edges.",
+      "Firm, sturdy stems without cankers or discoloration.",
+      "Uniform leaf pigmentation with no necrotic lesions or powdery residue."
+    ],
+    "confidence_disclaimer": "The plant is showing optimal health indicators. Routine seasonal monitoring is recommended to sustain vigorous blooming.",
+    "immediate_actions": [
+      "Maintain consistent routine care.",
+      "Inspect underside of leaves weekly for early signs of aphids or spot spores.",
+      "Deadhead faded blooms above a 5-leaflet leaf to stimulate repeat blooming."
+    ],
+    "watering": {
+      "frequency": "1-2 times per week (adjust for summer heat)",
+      "method": "Deep watering directly at the base or through drip irrigation. Avoid wetting leaves.",
+      "schedule_tips": "Water in the early morning to allow any accidental moisture on leaves to evaporate quickly."
+    },
+    "sunlight_environment": {
+      "sunlight": "6 to 8 hours of direct, unfiltered sunlight daily.",
+      "airflow": "Ensure good open spacing (2-3 feet) between plants for natural cross-ventilation.",
+      "temperature_humidity": "Thrives in temperatures between 18\u00b0C\u201328\u00b0C (65\u00b0F\u201382\u00b0F) with moderate humidity."
+    },
+    "soil_nutrition": {
+      "soil_type": "Rich, well-draining loamy soil enriched with well-rotted organic compost.",
+      "ph_range": "6.0 - 6.5 (slightly acidic to neutral)",
+      "fertilizer": "Apply balanced slow-release rose fertilizer (NPK 10-10-10 or 12-15-10) every 4-6 weeks during blooming season."
+    },
+    "treatments": {
+      "organic": [
+        "Apply preventative neem oil spray (0.5% concentration) once a month during spring.",
+        "Top-dress soil with organic compost tea to bolster natural root microbiome."
+      ],
+      "chemical": [
+        "No chemical interventions necessary for healthy plants."
+      ]
+    },
+    "prevention": [
+      "Prune crossing internal branches in early spring to encourage open vase structure.",
+      "Mulch 2-3 inches around the base (keeping 2 inches away from main stem) to retain moisture and suppress weeds.",
+      "Clean and sanitize pruning shears with 70% isopropyl alcohol."
+    ],
+    "checklist_tasks": [
+      "Check soil moisture 2 inches deep before watering",
+      "Deadhead spent blooms to encourage new buds",
+      "Perform weekly underside leaf inspection",
+      "Apply slow-release rose fertilizer once a month"
+    ]
+  },
+  "Rose___Black_Spot": {
+    "species": "Rose (Rosa)",
+    "condition_name": "Black Spot Disease (Diplocarpon rosae)",
+    "category": "Fungal Infection",
+    "severity": "moderate",
+    "description": "A destructive fungal disease that manifests as circular black spots with feathery, fringed margins on the upper leaf surface, eventually causing rapid yellowing and premature defoliation.",
+    "visual_symptoms": [
+      "Circular black spots (up to 1/2 inch across) with fringed, feathery margins.",
+      "Bright yellow halos forming around the dark spots as infected tissue deteriorates.",
+      "Premature leaf drop starting from lower branches and working upwards."
+    ],
+    "confidence_disclaimer": "Symptoms can mimic Cercospora leaf spot or physiological yellowing. High humidity and prolonged leaf wetness strongly favor Diplocarpon rosae development.",
+    "immediate_actions": [
+      "Prune off all visibly infected leaves immediately using sanitized shears.",
+      "Rake up and safely discard all fallen leaves from the soil surface (do NOT compost diseased leaves).",
+      "Isolate overhead sprinkler watering immediately."
+    ],
+    "watering": {
+      "frequency": "Water only when top 2 inches of soil are dry.",
+      "method": "Water strictly at soil level using a soaker hose or watering wand. Keep foliage completely dry.",
+      "schedule_tips": "Always water early in the morning so accidental splashes dry before midday."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full sun (minimum 6+ hours). Direct sunlight accelerates leaf drying and inhibits fungal spore germination.",
+      "airflow": "Prune center canes to open the plant canopy and improve airflow.",
+      "temperature_humidity": "Fungus thrives between 20\u00b0C\u201327\u00b0C with >80% relative humidity. Maximum ventilation is critical."
+    },
+    "soil_nutrition": {
+      "soil_type": "Loamy, well-draining soil with organic matter.",
+      "ph_range": "6.2 - 6.8",
+      "fertilizer": "Avoid high-nitrogen fertilizers during active infection (excess soft growth is vulnerable). Use potassium-rich fertilizers to strengthen cell walls."
+    },
+    "treatments": {
+      "organic": [
+        "Spray with cold-pressed Neem Oil (1 oz per gallon of water) every 7-10 days in the evening.",
+        "Apply Potassium Bicarbonate spray (1 tbsp potassium bicarbonate + 1 tsp liquid castile soap per gallon water).",
+        "Apply Bio-fungicide containing Bacillus amyloliquefaciens or Bacillus subtilis."
+      ],
+      "chemical": [
+        "Apply broad-spectrum systemic fungicide containing Myclobutanil, Tebuconazole, or Chlorothalonil.",
+        "Spray every 10-14 days during wet/humid weather, alternating active ingredients to prevent resistance."
+      ]
+    },
+    "prevention": [
+      "Apply a 2-3 inch fresh layer of cedar or pine bark mulch over soil to trap remaining soil fungal spores.",
+      "Sterilize pruning tools with rubbing alcohol or 10% bleach solution between every plant cut.",
+      "Choose disease-resistant rose cultivars for future plantings (e.g. Knock Out, Rugosa hybrids)."
+    ],
+    "checklist_tasks": [
+      "Prune and dispose of all spotted leaves (in trash, not compost)",
+      "Sanitize pruning shears with 70% alcohol",
+      "Switch strictly to base watering (never wet leaves)",
+      "Apply organic neem oil or potassium bicarbonate spray",
+      "Add fresh 2-inch mulch layer to prevent soil spore splash"
+    ]
+  },
+  "Rose___Powdery_Mildew": {
+    "species": "Rose (Rosa)",
+    "condition_name": "Powdery Mildew (Podosphaera pannosa)",
+    "category": "Fungal Infection",
+    "severity": "moderate",
+    "description": "A prevalent fungal condition causing a distinctive talcum-like white or grayish powdery coating across tender young leaves, shoots, and flower buds.",
+    "visual_symptoms": [
+      "White to grayish powdery coating on upper leaf surface, young shoots, and sepals.",
+      "Curling, blistering, or distortion of young leaves.",
+      "Unopened flower buds failing to open or blooming with deformed petals."
+    ],
+    "confidence_disclaimer": "Powdery mildew thrives in warm, dry daytime weather paired with cool, humid nights. Often confused with residue from hard water spray.",
+    "immediate_actions": [
+      "Gently prune severely coated shoots and buds to lower spore concentration.",
+      "Relocate potted roses to high-sunlight, high-airflow locations.",
+      "Apply therapeutic spray before spores spread to new growth."
+    ],
+    "watering": {
+      "frequency": "Water thoroughly once or twice weekly.",
+      "method": "Water at root level. Keep foliage dry during humid periods.",
+      "schedule_tips": "Morning hydration ensures turgid, stress-resilient foliage."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full direct sunlight (at least 6-8 hours daily). Shade significantly encourages mildew.",
+      "airflow": "Maximize space around rose bushes. Thin out congested canes.",
+      "temperature_humidity": "Warm days (22\u00b0C\u201330\u00b0C) with humid nights facilitate spore production."
+    },
+    "soil_nutrition": {
+      "soil_type": "Rich, well-aerated soil with adequate organic amendments.",
+      "ph_range": "6.0 - 6.5",
+      "fertilizer": "Reduce high-nitrogen feeds which spur excessively tender succulent growth."
+    },
+    "treatments": {
+      "organic": [
+        "Milk spray: Mix 1 part milk (dairy or whey) with 9 parts water and spray in full sunlight every 5-7 days.",
+        "Horticultural oil or Neem oil spray applied thoroughly over both sides of foliage.",
+        "Baking soda solution: 1 tbsp baking soda + 1/2 tsp dish soap in 1 gallon warm water."
+      ],
+      "chemical": [
+        "Apply sulfur-based fungicide or Triforine / Myclobutanil.",
+        "CAUTION: Do not apply sulfur sprays within 30 days of oil sprays to prevent leaf scorch."
+      ]
+    },
+    "prevention": [
+      "Maintain spacious planting distance for optimal air circulation.",
+      "Plant resistant varieties in locations with morning sun to dry overnight dew.",
+      "Avoid over-fertilizing with quick-release nitrogen in spring."
+    ],
+    "checklist_tasks": [
+      "Prune distorted or heavily coated leaves",
+      "Move plant to full sun location with good air circulation",
+      "Spray diluted milk solution or neem oil in morning",
+      "Hold off on high-nitrogen fertilizer"
+    ]
+  },
+  "Rose___Aphid_Infestation": {
+    "species": "Rose (Rosa)",
+    "condition_name": "Rose Aphids (Macrosiphum rosae)",
+    "category": "Pest Infestation",
+    "severity": "mild",
+    "description": "Small, soft-bodied sap-sucking insects (green, pink, or black) clustered heavily on tender young shoots, unopened flower buds, and undersides of new leaves.",
+    "visual_symptoms": [
+      "Clusters of tiny green/pink pear-shaped insects on flower buds and stem tips.",
+      "Curled, puckered, or stunted new growth.",
+      "Sticky clear residue ('honeydew') on leaves, accompanied by black sooty mold.",
+      "Ant activity crawling up stems to farm honeydew."
+    ],
+    "confidence_disclaimer": "Aphids reproduce rapidly in temperate spring conditions. Early detection makes non-chemical eradication straightforward.",
+    "immediate_actions": [
+      "Blast clusters with a strong, direct jet of water from a garden hose nozzle.",
+      "Squish small localized colonies with gloved fingers.",
+      "Check underside of leaves and terminal buds."
+    ],
+    "watering": {
+      "frequency": "Normal watering schedule.",
+      "method": "Direct base watering.",
+      "schedule_tips": "Hydrate stressed plants so they recover sap loss faster."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full sun (6+ hours). Healthy sun exposure builds tougher, insect-resistant leaf cuticle.",
+      "airflow": "Normal open airflow.",
+      "temperature_humidity": "Aphid population peaks in mild spring temps (18\u00b0C\u201324\u00b0C)."
+    },
+    "soil_nutrition": {
+      "soil_type": "Standard well-drained rose soil.",
+      "ph_range": "6.0 - 6.5",
+      "fertilizer": "Pause heavy nitrogen fertilizer; excess nitrogen creates lush, soft succulent shoots that attract aphids."
+    },
+    "treatments": {
+      "organic": [
+        "Insecticidal soap spray: Dilute 2 tbsp pure castile soap per quart of water, spray directly onto pests.",
+        "Neem oil spray (1-2% solution): Disrupts insect feeding and growth cycles.",
+        "Introduce or encourage beneficial predators (ladybugs, lacewings, hoverfly larvae)."
+      ],
+      "chemical": [
+        "Apply Pyrethrin-based spray or Acetamiprid if infestation is out of control.",
+        "Avoid spraying blooming flowers to protect pollinating bees."
+      ]
+    },
+    "prevention": [
+      "Plant companion plants like Marigolds, Alliums (garlic/chives), and Sweet Alyssum to repel aphids and attract predators.",
+      "Regularly inspect new spring shoots twice a week.",
+      "Control ant populations with sticky barriers around main stem base."
+    ],
+    "checklist_tasks": [
+      "Hose down flower buds with strong water spray",
+      "Apply organic insecticidal soap or neem oil spray",
+      "Wipe away sticky honeydew to prevent black sooty mold",
+      "Pause high-nitrogen fertilization"
+    ]
+  },
+  "Rose___Rust": {
+    "species": "Rose (Rosa)",
+    "condition_name": "Rose Rust (Phragmidium mucronatum)",
+    "category": "Fungal Infection",
+    "severity": "moderate",
+    "description": "A distinct fungal infection characterized by bright orange, powdery pustules on the lower leaf surface, paired with yellow flecks on the upper leaf surface.",
+    "visual_symptoms": [
+      "Small, raised, powdery bright-orange or rusty-brown pustules on undersides of leaves.",
+      "Corresponding yellow-orange chlorotic spots on upper leaf surfaces.",
+      "Severe infections cause leaves to curl, dry up, and fall off prematurely."
+    ],
+    "confidence_disclaimer": "Pustules become darker brown or black in late autumn as overwintering teliospores form.",
+    "immediate_actions": [
+      "Remove and incinerate/bag all affected leaves immediately.",
+      "Avoid touching healthy leaves after handling rusted foliage.",
+      "Rake ground clean beneath rose shrubs."
+    ],
+    "watering": {
+      "frequency": "Regular watering at base.",
+      "method": "Strictly root zone watering with soaker hose. Zero overhead sprinkler use.",
+      "schedule_tips": "Water early in the morning."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full sun (6-8 hours daily).",
+      "airflow": "Prune interior branches to optimize air flow and decrease humidity around foliage.",
+      "temperature_humidity": "Rust spores require free moisture for 2-4 hours to germinate at 18\u00b0C\u201321\u00b0C."
+    },
+    "soil_nutrition": {
+      "soil_type": "Rich loamy soil with high drainage.",
+      "ph_range": "6.0 - 6.8",
+      "fertilizer": "Maintain balanced potassium and phosphorus; avoid excess nitrogen."
+    },
+    "treatments": {
+      "organic": [
+        "Spray sulfur or copper soap fungicide at first sign of orange pustules.",
+        "Apply Bacillus subtilis biofungicide weekly."
+      ],
+      "chemical": [
+        "Apply systemic fungicides containing Tebuconazole, Mancozeb, or Myclobutanil.",
+        "Repeat applications every 10-14 days during wet spells."
+      ]
+    },
+    "prevention": [
+      "Maintain clean bed beneath roses with fresh mulch every spring.",
+      "Disinfect pruning tools with 70% alcohol.",
+      "Prune deadwood and thin canopy during winter dormancy."
+    ],
+    "checklist_tasks": [
+      "Pick off and dispose of all orange-pustuled leaves",
+      "Sanitize hands and shears with disinfectant",
+      "Apply copper-based fungicide or sulfur spray",
+      "Ensure leaves remain dry during watering"
+    ]
+  },
+  "Hibiscus___Healthy": {
+    "species": "Hibiscus (Hibiscus rosa-sinensis)",
+    "condition_name": "Healthy Tropical Hibiscus",
+    "category": "Healthy",
+    "severity": "healthy",
+    "description": "Vibrant, glossy emerald green foliage with sturdy branching and vigorous flower bud formation.",
+    "visual_symptoms": [
+      "Broad, dark green glossy leaves with even coloration.",
+      "Plump flower buds ready to bloom.",
+      "Active new shoot growth without leaf curling or yellowing."
+    ],
+    "confidence_disclaimer": "Plant shows excellent health metrics. Regular tropical feeding and warmth maintain continuous flowering.",
+    "immediate_actions": [
+      "Maintain consistent tropical care routine.",
+      "Provide ample warm sunshine and regular deep hydration.",
+      "Deadhead spent single-day flowers to keep plant clean."
+    ],
+    "watering": {
+      "frequency": "Daily during hot summer months; 2-3 times weekly in moderate weather.",
+      "method": "Deep, thorough soaking until water drains freely from pot or permeates root zone.",
+      "schedule_tips": "Keep soil evenly moist but never waterlogged."
+    },
+    "sunlight_environment": {
+      "sunlight": "6+ hours of bright direct to slightly dappled afternoon sun.",
+      "airflow": "Warm, gentle air movement. Protect from freezing winds or cold drafts (<10\u00b0C).",
+      "temperature_humidity": "Prefers 20\u00b0C\u201332\u00b0C (68\u00b0F\u201390\u00b0F) and 50%+ relative humidity."
+    },
+    "soil_nutrition": {
+      "soil_type": "Light, fluffy, highly porous potting mix with perlite, peat, and organic compost.",
+      "ph_range": "6.0 - 6.5",
+      "fertilizer": "Hibiscus are potassium lovers! Use high-potassium fertilizer (e.g. NPK 17-5-24 or 9-3-13) with trace iron and magnesium."
+    },
+    "treatments": {
+      "organic": [
+        "Routine monthly preventative neem oil application.",
+        "Foliar seaweed / kelp meal spray to boost flowering vigor."
+      ],
+      "chemical": [
+        "No treatments required for healthy specimens."
+      ]
+    },
+    "prevention": [
+      "Protect from temperatures below 10\u00b0C (50\u00b0F) by bringing indoors during winter.",
+      "Ensure container has multiple drainage holes to prevent root rot."
+    ],
+    "checklist_tasks": [
+      "Water thoroughly when top 1 inch of soil dries",
+      "Feed with high-potassium hibiscus fertilizer",
+      "Ensure minimum 6 hours of bright sunlight",
+      "Remove spent blossoms"
+    ]
+  },
+  "Hibiscus___Leaf_Blight": {
+    "species": "Hibiscus (Hibiscus rosa-sinensis)",
+    "condition_name": "Hibiscus Leaf Blight / Fungal Spot (Alternaria / Cercospora)",
+    "category": "Fungal Infection",
+    "severity": "moderate",
+    "description": "Fungal leaf blight causing water-soaked, irregular brown or necrotic tan spots with dark margins across hibiscus leaves, leading to widespread leaf yellowing and dropping.",
+    "visual_symptoms": [
+      "Irregular brown or grayish lesions with dark purple-brown margins.",
+      "Concentric rings or 'target' patterns inside larger necrotic spots.",
+      "Yellowing around diseased areas and sudden lower leaf shedding."
+    ],
+    "confidence_disclaimer": "Often triggered by overhead watering, warm humid nights, and crowded foliage.",
+    "immediate_actions": [
+      "Clip off all blighted leaves and collect fallen debris immediately.",
+      "Cease any overhead misting or spraying of leaves.",
+      "Move pot to a breezier, sunnier spot to accelerate surface drying."
+    ],
+    "watering": {
+      "frequency": "Water when top 1-2 inches feel dry.",
+      "method": "Water base directly. Ensure drainage saucers are emptied after watering.",
+      "schedule_tips": "Early morning watering only."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full sun to bright indirect light (6+ hours).",
+      "airflow": "Position plant where air circulates freely around all sides.",
+      "temperature_humidity": "Ensure good ventilation during humid summer spells."
+    },
+    "soil_nutrition": {
+      "soil_type": "Well-aerated potting mix with excellent drainage.",
+      "ph_range": "6.0 - 6.5",
+      "fertilizer": "Temporarily suspend heavy fertilization until new healthy growth emerges."
+    },
+    "treatments": {
+      "organic": [
+        "Apply liquid Copper Octanoate fungicide spray thoroughly.",
+        "Neem oil spray (1%) every 7 days in late afternoon."
+      ],
+      "chemical": [
+        "Broad-spectrum fungicide containing Chlorothalonil or Mancozeb.",
+        "Repeat application every 7-10 days until leaf spotting subsides."
+      ]
+    },
+    "prevention": [
+      "Never splash soil or water onto foliage.",
+      "Prune dense inner branches to let sunlight penetrate the interior.",
+      "Sanitize pruning blades with isopropyl alcohol."
+    ],
+    "checklist_tasks": [
+      "Prune affected spotted leaves and discard",
+      "Disinfect pruning tools",
+      "Spray with copper fungicide or neem oil",
+      "Ensure bottom drainage is clear and unblocked"
+    ]
+  },
+  "Hibiscus___Aphid_Infestation": {
+    "species": "Hibiscus (Hibiscus rosa-sinensis)",
+    "condition_name": "Hibiscus Aphids & Mealybugs",
+    "category": "Pest Infestation",
+    "severity": "moderate",
+    "description": "Sap-feeding insects attacking the soft growing tips and buds of tropical hibiscus, causing bud drop, twisted foliage, and sticky honeydew excretion.",
+    "visual_symptoms": [
+      "Dense clusters of small green, black, or cottony white insects on bud stems.",
+      "Flower buds turning yellow and dropping off before opening.",
+      "Distorted, stunted new leaves.",
+      "Sticky honeydew with sooty mold growth on upper leaf surfaces."
+    ],
+    "confidence_disclaimer": "Mealybugs appear as white cottony masses in leaf axils; aphids appear as tiny shiny pear-shaped bugs on stems.",
+    "immediate_actions": [
+      "Wash affected tips with a targeted strong stream of water.",
+      "Dab individual mealybugs with a cotton swab dipped in 70% rubbing alcohol.",
+      "Isolate the plant from other indoor/outdoor plants."
+    ],
+    "watering": {
+      "frequency": "Maintain steady soil moisture.",
+      "method": "Water thoroughly at root level.",
+      "schedule_tips": "Avoid water stress which weakens plant defenses."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full sun (6+ hours).",
+      "airflow": "Good air movement.",
+      "temperature_humidity": "Pests flourish in sheltered, warm, dry indoor or patio environments."
+    },
+    "soil_nutrition": {
+      "soil_type": "Porous, rich soil mix.",
+      "ph_range": "6.0 - 6.5",
+      "fertilizer": "Stop high nitrogen feeding which fuels rapid pest population surges."
+    },
+    "treatments": {
+      "organic": [
+        "Insecticidal soap spray (covering undersides of leaves and flower buds).",
+        "Pure cold-pressed neem oil (applied every 5-7 days for 3 cycles).",
+        "Horticultural mineral oil spray."
+      ],
+      "chemical": [
+        "Systemic insecticide granules (Imidacloprid/Dinotefuran) for severe container infestations.",
+        "Pyrethrin spray for fast knockdown."
+      ]
+    },
+    "prevention": [
+      "Inspect leaf axils and bud stems weekly.",
+      "Wipe down stems regularly with diluted castile soap solution.",
+      "Introduce beneficial green lacewings."
+    ],
+    "checklist_tasks": [
+      "Dab cottony pests with alcohol swab",
+      "Spray entire plant with insecticidal soap or neem oil",
+      "Rinse sticky honeydew from lower leaves",
+      "Check underside of flower buds"
+    ]
+  },
+  "Hibiscus___Iron_Chlorosis": {
+    "species": "Hibiscus (Hibiscus rosa-sinensis)",
+    "condition_name": "Iron Chlorosis / Nutrient Deficiency",
+    "category": "Nutrient Deficiency",
+    "severity": "mild",
+    "description": "A physiological nutrient deficiency where leaves turn pale yellow or ivory while the leaf veins remain distinctly dark green, caused by lack of available iron or alkaline soil pH.",
+    "visual_symptoms": [
+      "Interveinal chlorosis: leaf tissue turns yellow, lime-green, or whitish while veins stay sharply dark green.",
+      "Youngest leaves at shoot tips are affected first.",
+      "In severe cases, leaf margins may brown, curl, and die back."
+    ],
+    "confidence_disclaimer": "Can be caused by true soil iron deficiency OR soil pH above 7.0 which locks up iron availability. Overwatering can also mimic iron chlorosis by rotting feeder roots.",
+    "immediate_actions": [
+      "Check soil pH with a test kit (if pH > 7.0, acidify with sulfur or peat).",
+      "Apply foliar spray of chelated iron (Fe-EDTA or Fe-EDDHA) for rapid green-up.",
+      "Verify that roots are not sitting in waterlogged, suffocated soil."
+    ],
+    "watering": {
+      "frequency": "Allow top 1-2 inches of soil to dry slightly before watering.",
+      "method": "Ensure complete water drainage to promote healthy oxygen exchange in the root zone.",
+      "schedule_tips": "Overly wet soil prevents roots from absorbing iron ions."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full sun (6+ hours).",
+      "airflow": "Normal airflow.",
+      "temperature_humidity": "Cold soil temperatures (<15\u00b0C) can temporarily restrict iron uptake."
+    },
+    "soil_nutrition": {
+      "soil_type": "Acidic to neutral, rich potting mix.",
+      "ph_range": "6.0 - 6.5 (Essential: pH above 7.0 makes iron insoluble).",
+      "fertilizer": "Apply high-potassium hibiscus fertilizer with chelated micronutrients (Iron, Magnesium, Zinc, Manganese)."
+    },
+    "treatments": {
+      "organic": [
+        "Top-dress with organic compost, peat moss, or worm castings to gently lower pH.",
+        "Apply liquid kelp meal and chelated iron foliar drench."
+      ],
+      "chemical": [
+        "Drench soil with Chelated Iron (Fe-EDDHA for alkaline soil, Fe-EDTA for acidic soil).",
+        "Apply Epsom salts (Magnesium Sulfate: 1 tbsp/gallon water) if magnesium deficiency is also suspected."
+      ]
+    },
+    "prevention": [
+      "Maintain soil pH strictly between 6.0 and 6.5.",
+      "Avoid using hard, alkaline tap water (collect rainwater if tap water is heavily mineralized).",
+      "Use fertilizers formulated specifically with chelated trace minerals for tropical hibiscus."
+    ],
+    "checklist_tasks": [
+      "Test soil pH and adjust toward 6.0-6.5",
+      "Apply chelated iron foliar spray or root drench",
+      "Ensure pot is draining properly and not waterlogged",
+      "Feed with balanced hibiscus micronutrient fertilizer"
+    ]
+  },
+  "Marigold___Healthy": {
+    "species": "Marigold (Tagetes)",
+    "condition_name": "Healthy Marigold Plant",
+    "category": "Healthy",
+    "severity": "healthy",
+    "description": "Bushy, aromatic deep green feathery foliage with bright, showy golden-orange flower heads.",
+    "visual_symptoms": [
+      "Deep green, finely divided pinnate foliage.",
+      "Sturdy erect stems with abundant flower buds.",
+      "No webbing, spotting, or leaf browning."
+    ],
+    "confidence_disclaimer": "Marigolds are naturally hardy, pest-repellent garden flowers. Keep in full sun for nonstop blossoms.",
+    "immediate_actions": [
+      "Deadhead spent flowers regularly to stimulate continuous bud production.",
+      "Maintain consistent sunlight exposure."
+    ],
+    "watering": {
+      "frequency": "1-2 times a week when soil is dry to the touch.",
+      "method": "Water at the base. Marigolds prefer soaking then drying out slightly.",
+      "schedule_tips": "Avoid keeping soil constantly soggy."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full direct sunlight (at least 6-8 hours daily for maximum blooms).",
+      "airflow": "Excellent open air circulation.",
+      "temperature_humidity": "Thrives in warm temperatures (20\u00b0C\u201332\u00b0C / 68\u00b0F\u201390\u00b0F)."
+    },
+    "soil_nutrition": {
+      "soil_type": "Moderately fertile, well-draining garden soil.",
+      "ph_range": "6.0 - 7.0",
+      "fertilizer": "Low to moderate fertilization. Avoid excessive fertilizer, which promotes lush leaves at the expense of flowers."
+    },
+    "treatments": {
+      "organic": [
+        "Marigolds naturally produce alpha-terthienyl which suppresses root-knot nematodes."
+      ],
+      "chemical": [
+        "No chemical treatment required."
+      ]
+    },
+    "prevention": [
+      "Space plants 8-12 inches apart to prevent humidity buildup.",
+      "Pinch back young seedlings to encourage bushier growth."
+    ],
+    "checklist_tasks": [
+      "Deadhead spent flower heads to stimulate new blooms",
+      "Water at the base when topsoil feels dry",
+      "Keep in full sun position"
+    ]
+  },
+  "Marigold___Alternaria_Blight": {
+    "species": "Marigold (Tagetes)",
+    "condition_name": "Alternaria Leaf Blight (Alternaria tagetica)",
+    "category": "Fungal Infection",
+    "severity": "moderate",
+    "description": "A prevalent fungal blight in marigolds causing dark brown, water-soaked target spots on leaves and petal blight on blossoms.",
+    "visual_symptoms": [
+      "Small circular reddish-brown to dark brown spots on lower leaves.",
+      "Spots enlarge with concentric zonate rings ('target-board' appearance).",
+      "Blossoms turn brown, rot, and wither before fully opening."
+    ],
+    "confidence_disclaimer": "Common during prolonged rainfall or overhead irrigation in summer.",
+    "immediate_actions": [
+      "Snip and discard blighted leaves and rotting flower heads.",
+      "Discontinue all sprinkler or overhead hose watering.",
+      "Thin congested plants to promote rapid drying."
+    ],
+    "watering": {
+      "frequency": "Allow surface soil to dry out between waterings.",
+      "method": "Apply water directly to the soil bed around the roots.",
+      "schedule_tips": "Morning irrigation only."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full sun (6+ hours daily).",
+      "airflow": "Ensure wide spacing between plants.",
+      "temperature_humidity": "Warm, humid conditions (24\u00b0C\u201330\u00b0C) accelerate spore germination."
+    },
+    "soil_nutrition": {
+      "soil_type": "Fast-draining sandy loam or garden soil.",
+      "ph_range": "6.2 - 6.8",
+      "fertilizer": "Maintain balanced nutrition; avoid excessive nitrogen."
+    },
+    "treatments": {
+      "organic": [
+        "Spray with organic liquid Copper fungicide.",
+        "Apply biological fungicide containing Trichoderma harzianum or Bacillus subtilis."
+      ],
+      "chemical": [
+        "Spray with Mancozeb, Chlorothalonil, or Azoxystrobin at 7-10 day intervals."
+      ]
+    },
+    "prevention": [
+      "Space seedlings 10-12 inches apart to avoid crowded canopies.",
+      "Use drip irrigation or soaker hoses.",
+      "Practice crop rotation; do not plant marigolds in the exact same spot consecutively."
+    ],
+    "checklist_tasks": [
+      "Remove all infected foliage and flowers",
+      "Spray with copper fungicide or Mancozeb",
+      "Switch strictly to ground watering",
+      "Sterilize shears after pruning"
+    ]
+  },
+  "Marigold___Powdery_Mildew": {
+    "species": "Marigold (Tagetes)",
+    "condition_name": "Powdery Mildew (Golovinomyces cichoracearum)",
+    "category": "Fungal Infection",
+    "severity": "mild",
+    "description": "White powdery fungal mycelium covering the finely divided leaves and stems of marigolds, causing foliage to turn brittle and dry.",
+    "visual_symptoms": [
+      "White dusty patches expanding over leaves, stems, and flower bracts.",
+      "Foliage turning grayish-yellow, curling upward, and drying out.",
+      "Reduced flowering and overall plant stunting."
+    ],
+    "confidence_disclaimer": "Common in late summer and autumn as nights turn cooler and days remain warm.",
+    "immediate_actions": [
+      "Trim off heavily infected lower foliage.",
+      "Ensure plants receive full morning sun.",
+      "Apply an organic anti-fungal spray."
+    ],
+    "watering": {
+      "frequency": "Water when top 1 inch of soil is dry.",
+      "method": "Water at base level.",
+      "schedule_tips": "Water in early morning."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full direct sun (6-8 hours daily).",
+      "airflow": "Provide high-airflow spacing.",
+      "temperature_humidity": "Avoid shaded, humid corners."
+    },
+    "soil_nutrition": {
+      "soil_type": "Well-drained soil.",
+      "ph_range": "6.0 - 7.0",
+      "fertilizer": "Avoid high nitrogen feeds."
+    },
+    "treatments": {
+      "organic": [
+        "Spray with potassium bicarbonate or baking soda (1 tsp per quart water + drop of soap).",
+        "Neem oil spray (0.5-1%) applied in evening."
+      ],
+      "chemical": [
+        "Apply sulfur dust or Myclobutanil fungicide."
+      ]
+    },
+    "prevention": [
+      "Plant marigolds in unshaded areas with maximum sunlight.",
+      "Thin foliage to ensure sunlight reaches the lower canopy."
+    ],
+    "checklist_tasks": [
+      "Prune dusty coated leaves",
+      "Spray baking soda or neem solution",
+      "Relocate to full sun position"
+    ]
+  },
+  "Marigold___Spider_Mites": {
+    "species": "Marigold (Tagetes)",
+    "condition_name": "Two-Spotted Spider Mites (Tetranychus urticae)",
+    "category": "Pest Infestation",
+    "severity": "moderate",
+    "description": "Microscopic arachnid pests that pierce plant cells and suck out chlorophyll, causing fine yellow stippling and delicate silky webbing across leaves and buds.",
+    "visual_symptoms": [
+      "Fine yellow/bronze stippling (tiny dots) across upper leaf surfaces.",
+      "Delicate, silky webbing spun between leaf axils and flower heads.",
+      "Leaves turning bronze, brittle, paper-dry, and dropping.",
+      "Tiny moving specks visible on the underside of leaves when tapped over white paper."
+    ],
+    "confidence_disclaimer": "Spider mites proliferate explosively in hot, dry, dusty conditions.",
+    "immediate_actions": [
+      "Spray plant thoroughly with a forceful cold water spray to dislodge mites and destroy webbing.",
+      "Isolate heavily infested plants.",
+      "Mist surroundings to elevate ambient humidity."
+    ],
+    "watering": {
+      "frequency": "Keep soil evenly hydrated; drought stress makes marigolds hyper-susceptible.",
+      "method": "Base watering + occasional cold foliar wash to deter mites.",
+      "schedule_tips": "Do not let soil become bone-dry in summer."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full sun, but provide light afternoon shade during extreme 38\u00b0C+ heat waves.",
+      "airflow": "Ensure good ventilation without hot dry winds.",
+      "temperature_humidity": "Mites thrive at temperatures above 30\u00b0C and <30% humidity."
+    },
+    "soil_nutrition": {
+      "soil_type": "Moisture-retentive yet well-draining soil.",
+      "ph_range": "6.0 - 7.0",
+      "fertilizer": "Balanced feeding; excess nitrogen encourages mite reproduction."
+    },
+    "treatments": {
+      "organic": [
+        "Insecticidal soap spray (ensure complete coverage of leaf undersides).",
+        "Neem oil or Rosemary-oil based miticide.",
+        "Release predatory mites (Phytoseiulus persimilis)."
+      ],
+      "chemical": [
+        "Apply specific miticide/acaricide (Abamectin, Bifenazate)."
+      ]
+    },
+    "prevention": [
+      "Keep plants well-watered and avoid dusty garden conditions.",
+      "Regularly wash undersides of leaves during dry spells.",
+      "Mulch around base to conserve soil moisture."
+    ],
+    "checklist_tasks": [
+      "Hose down plant and wipe away webbing",
+      "Spray insecticidal soap on undersides of leaves",
+      "Water deeply to eliminate drought stress",
+      "Repeat treatment in 4-5 days to target newly hatched eggs"
+    ]
+  },
+  "Jasmine___Healthy": {
+    "species": "Jasmine (Jasminum)",
+    "condition_name": "Healthy Jasmine Vine / Shrub",
+    "category": "Healthy",
+    "severity": "healthy",
+    "description": "Lush, glossy deep green leaves climbing vigorously with clusters of intensely fragrant star-shaped white flowers.",
+    "visual_symptoms": [
+      "Rich dark green glossy foliage with vibrant twining stems.",
+      "Prolific fragrant white flower clusters.",
+      "No pest webbing, rust spots, or chlorosis."
+    ],
+    "confidence_disclaimer": "Jasmine thrives in warm sunlight and well-aerated soil. Regular pruning after flowering maintains thick bushy growth.",
+    "immediate_actions": [
+      "Maintain trellis support for climbing varieties.",
+      "Deadhead spent flower clusters to stimulate lateral branching."
+    ],
+    "watering": {
+      "frequency": "Water when top 1 inch of soil feels dry.",
+      "method": "Deep, thorough soaking at root base.",
+      "schedule_tips": "Reduce watering slightly in winter dormancy."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full sun to partial shade (at least 6 hours of bright light).",
+      "airflow": "Good open ventilation.",
+      "temperature_humidity": "Warm climate (18\u00b0C\u201330\u00b0C). Protect from frost."
+    },
+    "soil_nutrition": {
+      "soil_type": "Rich, loamy, fast-draining soil with compost.",
+      "ph_range": "6.0 - 7.0",
+      "fertilizer": "Apply balanced organic fertilizer (NPK 10-10-10) or phosphorus-rich bloom booster twice a month during spring and summer."
+    },
+    "treatments": {
+      "organic": [
+        "Routine seaweed extract foliar spray."
+      ],
+      "chemical": [
+        "No chemical treatments needed."
+      ]
+    },
+    "prevention": [
+      "Prune back after main blooming cycle to prevent tangling.",
+      "Mulch root zone to keep roots cool in summer."
+    ],
+    "checklist_tasks": [
+      "Inspect climbing canes and tie to trellis",
+      "Water when topsoil feels dry",
+      "Apply balanced fertilizer during blooming season"
+    ]
+  },
+  "Jasmine___Leaf_Rust": {
+    "species": "Jasmine (Jasminum)",
+    "condition_name": "Jasmine Leaf & Twig Rust (Uromyces hobsonii)",
+    "category": "Fungal Infection",
+    "severity": "moderate",
+    "description": "Fungal rust causing yellow-orange blisters and hypertrophied (swollen/distorted) orange spore pustules on leaves, petioles, and tender green stems.",
+    "visual_symptoms": [
+      "Bright yellow-orange or reddish pustules on leaves and green stems.",
+      "Swelling, twisting, and abnormal distortion of young shoots.",
+      "Premature leaf drop and drying of flower buds."
+    ],
+    "confidence_disclaimer": "Rust spores spread rapidly during humid rainy periods.",
+    "immediate_actions": [
+      "Prune away all distorted twigs and rusted leaves.",
+      "Bag and dispose of clipped infected material safely.",
+      "Disinfect shears after every cut."
+    ],
+    "watering": {
+      "frequency": "Water at base when top 2 inches dry.",
+      "method": "Root zone irrigation only.",
+      "schedule_tips": "Keep vine foliage dry."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full sunlight (6+ hours).",
+      "airflow": "Thin dense vine tangles to allow air and light through the canopy.",
+      "temperature_humidity": "Ensure rapid leaf drying after rain."
+    },
+    "soil_nutrition": {
+      "soil_type": "Well-aerated soil.",
+      "ph_range": "6.0 - 6.8",
+      "fertilizer": "Avoid excess nitrogen fertilizer."
+    },
+    "treatments": {
+      "organic": [
+        "Apply Copper Oxychloride or wettable sulfur spray.",
+        "Neem oil spray (1%) every 10 days."
+      ],
+      "chemical": [
+        "Spray with systemic fungicides like Hexaconazole, Propiconazole, or Mancozeb."
+      ]
+    },
+    "prevention": [
+      "Regular seasonal pruning of interior old wood.",
+      "Avoid overhead irrigation.",
+      "Clean ground beneath vines of fallen leaves."
+    ],
+    "checklist_tasks": [
+      "Prune and dispose of swollen, rusted stems",
+      "Sanitize pruning tools",
+      "Apply copper-based or Hexaconazole spray",
+      "Ensure foliage stays dry during watering"
+    ]
+  },
+  "Jasmine___Bud_Borer_Damage": {
+    "species": "Jasmine (Jasminum)",
+    "condition_name": "Jasmine Bud Borer (Hendecasis duplifascialis)",
+    "category": "Pest Infestation",
+    "severity": "moderate",
+    "description": "Small caterpillars that bore into unopened flower buds, feeding internally, causing buds to turn pale, dry up, fail to open, and show tiny entry holes with frass.",
+    "visual_symptoms": [
+      "Flower buds showing tiny circular entry bore-holes with dark frass (droppings).",
+      "Buds turning brownish-pink or translucent and dropping before opening.",
+      "Silken webbing binding several flower buds together."
+    ],
+    "confidence_disclaimer": "Significant cause of flower loss in garden jasmine during budding seasons.",
+    "immediate_actions": [
+      "Hand-pick and destroy all webbed, bored, or discolored flower buds.",
+      "Examine buds closely in early morning or dusk for caterpillar presence."
+    ],
+    "watering": {
+      "frequency": "Normal watering schedule.",
+      "method": "Direct base watering.",
+      "schedule_tips": "Maintain standard hydration."
+    },
+    "sunlight_environment": {
+      "sunlight": "Full sun (6+ hours).",
+      "airflow": "Open airflow.",
+      "temperature_humidity": "Pest activity peaks in warm, humid flowering months."
+    },
+    "soil_nutrition": {
+      "soil_type": "Rich loamy soil.",
+      "ph_range": "6.0 - 7.0",
+      "fertilizer": "Maintain balanced feeding."
+    },
+    "treatments": {
+      "organic": [
+        "Spray Bacillus thuringiensis (Bt - Kurstaki) spray; highly effective against caterpillars without harming pollinators.",
+        "Apply Spinosad spray in late evening when bees are not foraging.",
+        "Neem seed kernel extract (NSKE 5%) spray."
+      ],
+      "chemical": [
+        "Apply Chlorantraniliprole or Emamectin benzoate for heavy commercial infestations."
+      ]
+    },
+    "prevention": [
+      "Rake soil around base of plants to expose pupae to birds and sunlight.",
+      "Spray Bt preventatively when flower bud clusters begin to form.",
+      "Install yellow sticky traps to detect adult moth presence."
+    ],
+    "checklist_tasks": [
+      "Pick and discard all bored flower buds",
+      "Apply biological Bt (Bacillus thuringiensis) spray in evening",
+      "Rake and cultivate soil around base to disturb pupae"
+    ]
+  },
+  "Jasmine___Nutrient_Deficiency": {
+    "species": "Jasmine (Jasminum)",
+    "condition_name": "Nutrient Deficiency (Nitrogen / Magnesium / Iron)",
+    "category": "Nutrient Deficiency",
+    "severity": "mild",
+    "description": "Generalized yellowing of older or younger foliage accompanied by slow growth, weak stems, and sparse flower bud production.",
+    "visual_symptoms": [
+      "Uniform pale yellowing of older lower leaves (Nitrogen deficiency).",
+      "Yellowing between veins on newer leaves (Iron / Magnesium deficiency).",
+      "Stunted vine elongation and reduced floral fragrance."
+    ],
+    "confidence_disclaimer": "Deficiency can result from depleted potting soil, improper pH locking nutrients, or root binding in containers.",
+    "immediate_actions": [
+      "Check if plant is root-bound in container; repot if necessary.",
+      "Apply balanced liquid foliar feed with micronutrients.",
+      "Test and adjust soil pH."
+    ],
+    "watering": {
+      "frequency": "Water when top 1 inch feels dry.",
+      "method": "Water thoroughly until runoff occurs.",
+      "schedule_tips": "Ensure pot drains freely."
+    },
+    "sunlight_environment": {
+      "sunlight": "Bright sun (6 hours daily).",
+      "airflow": "Normal airflow.",
+      "temperature_humidity": "Optimal growing temp: 20\u00b0C\u201328\u00b0C."
+    },
+    "soil_nutrition": {
+      "soil_type": "Nutrient-rich, well-aerated potting mix with compost and vermicompost.",
+      "ph_range": "6.0 - 6.8",
+      "fertilizer": "Apply balanced water-soluble fertilizer (NPK 19-19-19) plus chelated trace elements (Fe, Mg, Zn)."
+    },
+    "treatments": {
+      "organic": [
+        "Top-dress with well-rotted cow manure, vermicompost, or blood meal.",
+        "Foliar spray with liquid seaweed / fish emulsion."
+      ],
+      "chemical": [
+        "Apply Epsom salts (Magnesium Sulfate: 1 tbsp/gallon) + Chelated Iron drench."
+      ]
+    },
+    "prevention": [
+      "Top-dress containers with fresh compost every spring.",
+      "Maintain regular bi-weekly feeding during active growing seasons."
+    ],
+    "checklist_tasks": [
+      "Apply balanced NPK fertilizer with micronutrients",
+      "Drench with Epsom salt solution for magnesium boost",
+      "Check root system if potted and upsize if root-bound"
+    ]
+  },
+  "General_Flower___Healthy": {
+    "species": "General Flowering Plant",
+    "condition_name": "Healthy Flowering Specimen",
+    "category": "Healthy",
+    "severity": "healthy",
+    "description": "The flowering plant displays robust green leaves, intact stems, and active bud or blossom development with no signs of pathological infection.",
+    "visual_symptoms": [
+      "Vibrant green, firm foliage with natural luster.",
+      "No necrotic lesions, fungal mildew, pest clusters, or severe wilting.",
+      "Sturdy stems supporting healthy flower buds."
+    ],
+    "confidence_disclaimer": "Plant shows healthy physiological characteristics. Follow species-specific maintenance.",
+    "immediate_actions": [
+      "Continue standard watering and lighting routine.",
+      "Deadhead spent flowers to prolong blooming duration."
+    ],
+    "watering": {
+      "frequency": "When top 1-2 inches of soil feel dry to the touch.",
+      "method": "Water deeply at base level, avoiding excessive leaf wetness.",
+      "schedule_tips": "Morning watering is best."
+    },
+    "sunlight_environment": {
+      "sunlight": "Adequate sunlight (4-8 hours depending on plant variety).",
+      "airflow": "Ensure good space around the pot or garden bed.",
+      "temperature_humidity": "Maintain comfortable room/garden temperatures (18\u00b0C\u201328\u00b0C)."
+    },
+    "soil_nutrition": {
+      "soil_type": "Well-draining, organically enriched soil.",
+      "ph_range": "6.0 - 7.0",
+      "fertilizer": "Apply balanced all-purpose flowering plant fertilizer once every 3-4 weeks."
+    },
+    "treatments": {
+      "organic": [
+        "Preventative neem oil or compost tea monthly."
+      ],
+      "chemical": [
+        "None needed."
+      ]
+    },
+    "prevention": [
+      "Sanitize pruning tools before making cuts.",
+      "Ensure containers have functional drainage holes."
+    ],
+    "checklist_tasks": [
+      "Check soil moisture before watering",
+      "Deadhead faded blooms",
+      "Apply all-purpose flower fertilizer monthly"
+    ]
+  },
+  "General_Flower___Fungal_Leaf_Spot": {
+    "species": "General Flowering Plant",
+    "condition_name": "Fungal Leaf Spot Disease",
+    "category": "Fungal Infection",
+    "severity": "moderate",
+    "description": "Fungal pathogen infection causing discrete brown, black, or tan spots with yellow halos across the foliage, often accelerating leaf drop.",
+    "visual_symptoms": [
+      "Circular or angular brown/black necrotic spots on leaves.",
+      "Yellow halo or ring encircling each spot.",
+      "Spots may coalesce into large dead patches causing leaf drop."
+    ],
+    "confidence_disclaimer": "Fungal leaf spots are predominantly triggered by overhead water splashing and stagnant humidity.",
+    "immediate_actions": [
+      "Remove and safely discard all spotted leaves.",
+      "Stop wetting the foliage when watering.",
+      "Increase distance between neighboring plants."
+    ],
+    "watering": {
+      "frequency": "Water only when topsoil is dry.",
+      "method": "Water directly at soil level using a narrow-spout watering can.",
+      "schedule_tips": "Always water in early morning."
+    },
+    "sunlight_environment": {
+      "sunlight": "Bright sunlight to facilitate foliage drying.",
+      "airflow": "Provide high-ventilation placement.",
+      "temperature_humidity": "Lower ambient humidity around foliage."
+    },
+    "soil_nutrition": {
+      "soil_type": "Free-draining potting medium.",
+      "ph_range": "6.0 - 6.8",
+      "fertilizer": "Avoid high nitrogen feeds during active flare-up."
+    },
+    "treatments": {
+      "organic": [
+        "Spray organic Copper fungicide or Neem oil (1%) every 7-10 days.",
+        "Apply potassium bicarbonate spray solution."
+      ],
+      "chemical": [
+        "Broad-spectrum fungicide containing Chlorothalonil or Mancozeb."
+      ]
+    },
+    "prevention": [
+      "Never water plants from above.",
+      "Disinfect scissors/pruners with alcohol.",
+      "Apply clean mulch over soil surface to prevent spore splash."
+    ],
+    "checklist_tasks": [
+      "Prune off spotted leaves and discard",
+      "Sanitize scissors with alcohol",
+      "Spray with copper fungicide or neem oil",
+      "Water only at root base"
+    ]
+  },
+  "General_Flower___Overwatering_Stress": {
+    "species": "General Flowering Plant",
+    "condition_name": "Overwatering & Root Hypoxia Stress",
+    "category": "Water Stress",
+    "severity": "moderate",
+    "description": "Physiological stress caused by persistently waterlogged soil, depriving roots of oxygen and causing root rot, edema, and yellowing limp leaves.",
+    "visual_symptoms": [
+      "Lower leaves turning pale yellow, soft, and limp despite wet soil.",
+      "Soil surface remaining soggy, mossy, or emitting a stale sour odor.",
+      "Stems feeling soft or blackened near the soil line (early stem rot).",
+      "Blister-like bumps (edema) on the undersides of leaves."
+    ],
+    "confidence_disclaimer": "Yellow leaves from overwatering are often mistaken for underwatering or nutrient deficiency. Always feel soil depth before adding water!",
+    "immediate_actions": [
+      "Stop watering immediately and allow the soil to dry out thoroughly.",
+      "Empty any standing water sitting in the pot saucer or drip tray.",
+      "If severe, unpot the plant, inspect roots, snip off black mushy roots, and repot in fresh dry soil."
+    ],
+    "watering": {
+      "frequency": "Strictly withhold water until the top 2-3 inches of soil feel completely dry.",
+      "method": "When watering resumes, water deeply until slight drainage occurs, then do not water again until dry.",
+      "schedule_tips": "Never water on a rigid calendar schedule; always check soil moisture first."
+    },
+    "sunlight_environment": {
+      "sunlight": "Move to a brighter location with warm indirect sun to help the plant transpire excess water.",
+      "airflow": "Increase air movement around pot base.",
+      "temperature_humidity": "Ensure good drainage and air flow."
+    },
+    "soil_nutrition": {
+      "soil_type": "Porous, aerated mix with perlite, coarse sand, or pumice for drainage.",
+      "ph_range": "6.0 - 7.0",
+      "fertilizer": "Do NOT fertilize a water-stressed plant; damaged root tips will burn easily."
+    },
+    "treatments": {
+      "organic": [
+        "Drench soil with diluted 3% Hydrogen Peroxide (1 part 3% H2O2 to 4 parts water) to oxygenate root zone and kill anaerobic bacteria/fungi.",
+        "Dust trimmed root ends with cinnamon powder or sulfur before repotting."
+      ],
+      "chemical": [
+        "Apply systemic anti-root rot fungicide (e.g. Mefenoxam or Fosetyl-Al) for high-value specimens."
+      ]
+    },
+    "prevention": [
+      "Always ensure pots have open drainage holes.",
+      "Use well-draining potting soil with 25-30% perlite.",
+      "Use the 'finger test' or a moisture meter before watering."
+    ],
+    "checklist_tasks": [
+      "Empty standing water from pot saucer immediately",
+      "Withhold watering until top 2-3 inches are dry",
+      "Ensure pot drainage holes are unobstructed",
+      "Pause all fertilizer until new growth appears"
+    ]
+  },
+  "General_Flower___Dehydration_Stress": {
+    "species": "General Flowering Plant",
+    "condition_name": "Underwatering / Dehydration Stress",
+    "category": "Water Stress",
+    "severity": "mild",
+    "description": "Acute water shortage causing loss of cell turgidity, wilting, crispy brown leaf margins, and premature flower bud shedding.",
+    "visual_symptoms": [
+      "Drooping, limp stems and wilting leaves that feel paper-thin or dry.",
+      "Crispy, brown, curled leaf tips and edges.",
+      "Soil pulling away from the inside edges of the pot; bone-dry root ball.",
+      "Flower buds and open blossoms drying up and dropping off."
+    ],
+    "confidence_disclaimer": "Distinguished from overwatering by dry, crumbly soil and crispy leaf texture rather than soft, soggy yellow leaves.",
+    "immediate_actions": [
+      "Give the plant an immediate bottom-watering soak (place pot in a basin of water for 20-30 minutes until soil rehydrates).",
+      "Move out of scorching midday direct sun until leaves regain turgidity.",
+      "Do NOT apply heavy fertilizer while plant is dehydrated."
+    ],
+    "watering": {
+      "frequency": "Water consistently as soon as the top 1 inch of soil is dry.",
+      "method": "Thorough deep watering until water runs out the drainage holes, ensuring hydrophobic dry pockets are saturated.",
+      "schedule_tips": "Water in the morning or early evening."
+    },
+    "sunlight_environment": {
+      "sunlight": "Temporary filtered light until recovered, then return to normal sunlight.",
+      "airflow": "Moderate airflow; avoid placing directly in the path of hot air blowers or air conditioning.",
+      "temperature_humidity": "Increase humidity around the plant if indoor air is dry."
+    },
+    "soil_nutrition": {
+      "soil_type": "Moisture-retentive yet well-drained soil rich in organic matter / coco coir.",
+      "ph_range": "6.0 - 7.0",
+      "fertilizer": "Resume gentle feeding only after plant is fully rehydrated and producing new growth."
+    },
+    "treatments": {
+      "organic": [
+        "Add a 1-inch top dressing of organic compost or mulch to retain soil moisture.",
+        "Foliar mist with pure water during recovery."
+      ],
+      "chemical": [
+        "None required; hydration resolves dehydration stress."
+      ]
+    },
+    "prevention": [
+      "Establish a regular soil check routine (e.g. check every 2 days in summer).",
+      "Add mulch to reduce soil moisture evaporation.",
+      "Use self-watering pots or olla pots for moisture-sensitive flowering plants."
+    ],
+    "checklist_tasks": [
+      "Give plant a deep, thorough watering or bottom soak",
+      "Move to sheltered shade until foliage regains stiffness",
+      "Add top mulch layer to conserve soil moisture",
+      "Prune completely dead crispy leaves once recovered"
+    ]
+  }
+}

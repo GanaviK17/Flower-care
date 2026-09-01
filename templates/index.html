@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Plant Health Recommendation System | AI Botanical Doctor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="brand-container">
+      <div class="brand-icon">
+        <i class="fa-solid fa-seedling"></i>
+      </div>
+      <div>
+        <h1 class="brand-title">FloraCare AI</h1>
+        <div class="brand-subtitle">Flower Plant Health & Personalized Care Recommendation System</div>
+      </div>
+    </div>
+    <div class="nav-badges">
+      <span class="system-badge"><i class="fa-solid fa-microchip"></i> CNN Transfer Learning</span>
+      <span class="system-badge"><i class="fa-solid fa-book-bookmark"></i> Botanical Knowledge Base</span>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <h2 class="hero-title">Diagnose Plant Health & <span>Receive Actionable Care Plans</span></h2>
+    <p class="hero-desc">
+      Upload a photo of your flowering plant or leaves. Our AI analyzes visual features, predicts health conditions with confidence scores,
+      and provides practical step-by-step guidance for watering, sunlight, soil, treatments, and long-term prevention.
+    </p>
+  </section>
+
+  <main class="main-wrapper">
+    <aside class="left-column">
+      <div class="app-card upload-card">
+        <h3 class="card-title"><i class="fa-solid fa-camera-retro"></i> Plant Image Input</h3>
+
+        <div class="dropzone-container" id="dropzone">
+          <input type="file" id="fileInput" accept="image/*" style="display: none;">
+          <div class="upload-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+          <div class="upload-text">Drag & drop flower or leaf photo</div>
+          <div class="upload-hint">or click to browse from device (JPG, PNG, WEBP)</div>
+        </div>
+
+        <div class="camera-container" id="cameraContainer">
+          <video id="cameraVideo" autoplay playsinline></video>
+          <div class="camera-controls">
+            <button class="btn-action" id="btnCaptureSnap"><i class="fa-solid fa-camera"></i> Take Snapshot</button>
+            <button class="btn-action" id="btnCloseCamera"><i class="fa-solid fa-xmark"></i> Cancel</button>
+          </div>
+          <canvas id="cameraCanvas" style="display:none;"></canvas>
+        </div>
+
+        <div class="input-actions-row">
+          <button class="btn-action" id="btnBrowseFile"><i class="fa-solid fa-folder-open"></i> Browse File</button>
+          <button class="btn-action" id="btnToggleCamera"><i class="fa-solid fa-video"></i> Live Camera</button>
+        </div>
+
+        <div class="preview-container" id="previewContainer">
+          <img id="previewImg" class="preview-img" src="" alt="Selected Plant Preview">
+          <button class="btn-remove-preview" id="btnRemovePreview" title="Clear selection">
+            <i class="fa-solid fa-trash-can"></i>
+          </button>
+        </div>
+
+        <button class="btn-analyze" id="btnAnalyze" disabled>
+          <i class="fa-solid fa-wand-magic-sparkles"></i> Analyze Plant Health
+        </button>
+
+        <div class="sample-gallery-section">
+          <div class="sample-title"><i class="fa-solid fa-vial-circle-check"></i> Or Quick-Test With Curated Samples:</div>
+          <div class="sample-grid" id="sampleGrid"></div>
+        </div>
+
+      </div>
+    </aside>
+
+    <section class="right-column">
+      <div class="app-card results-card" id="resultsCard">
+
+        <div class="results-placeholder" id="placeholderView">
+          <div class="placeholder-icon"><i class="fa-solid fa-leaf"></i></div>
+          <h3>No Plant Analyzed Yet</h3>
+          <p>Upload a flower photo or choose a sample from the left panel to generate health diagnosis and care recommendations.</p>
+        </div>
+
+        <div class="loading-spinner-container" id="loadingView">
+          <div class="spinner"></div>
+          <h4>Analyzing Foliage & Visual Symptoms...</h4>
+          <p class="text-muted" style="font-size: 0.85rem; margin-top: 6px;">
+            Processing image through MobileNetV2 CNN classifier and cross-referencing botanical knowledge base.
+          </p>
+        </div>
+
+        <div id="diagnosticResultsView" style="display: none;">
+
+          <div class="diag-header">
+            <div class="diag-title-row">
+              <div>
+                <div class="plant-name" id="resPlantName">Rose (Rosa)</div>
+                <div class="condition-tag" id="resConditionName">Black Spot Disease</div>
+              </div>
+              <div style="display: flex; gap: 8px; align-items: center;">
+                <span class="badge" id="resSeverityBadge"><i class="fa-solid fa-circle-exclamation"></i> Action Needed</span>
+                <span class="badge" id="resReliabilityBadge">High Confidence</span>
+              </div>
+            </div>
+
+            <div class="confidence-container">
+              <div class="conf-meta">
+                <span>Model Prediction Confidence</span>
+                <span id="resConfidenceText">88.5%</span>
+              </div>
+              <div class="conf-bar-bg">
+                <div class="conf-bar-fill" id="resConfidenceFill"></div>
+              </div>
+            </div>
+
+            <p id="resDescription" style="font-size: 0.88rem; color: #475569; line-height: 1.5; margin-top: 10px;"></p>
+
+            <div class="differential-box" id="resDifferentialBox">
+              <div class="differential-title">Candidate Predictions Distribution:</div>
+              <div id="resDifferentialList"></div>
+            </div>
+          </div>
+
+          <div class="disclaimer-banner">
+            <i class="fa-solid fa-circle-info"></i>
+            <div>
+              <strong>Botanical Decision-Support Note:</strong>
+              <span id="resDisclaimerText">
+                AI diagnosis indicates probable condition. Symptoms like leaf yellowing can visually overlap between overwatering, chlorosis, or early fungal stress.
+              </span>
+            </div>
+          </div>
+
+          <div class="rec-card" style="margin-bottom: 20px; border-left: 4px solid var(--accent-rose);">
+            <div class="rec-header">
+              <div class="rec-icon icon-purple"><i class="fa-solid fa-bolt"></i></div>
+              <span>Immediate Triage Actions (First 24–48 Hours)</span>
+            </div>
+            <ul id="resImmediateActions"></ul>
+          </div>
+
+          <div class="rec-grid">
+            <div class="rec-card">
+              <div class="rec-header">
+                <div class="rec-icon icon-blue"><i class="fa-solid fa-droplet"></i></div>
+                <span>Watering & Moisture Protocol</span>
+              </div>
+              <p><strong>Frequency:</strong> <span id="resWaterFreq"></span></p>
+              <p style="margin-top: 6px;"><strong>Method:</strong> <span id="resWaterMethod"></span></p>
+              <p style="margin-top: 6px; font-size: 0.8rem; color: #64748b;"><i class="fa-regular fa-clock"></i> <span id="resWaterTips"></span></p>
+            </div>
+
+            <div class="rec-card">
+              <div class="rec-header">
+                <div class="rec-icon icon-yellow"><i class="fa-solid fa-sun"></i></div>
+                <span>Sunlight & Airflow Setup</span>
+              </div>
+              <p><strong>Light:</strong> <span id="resSunlight"></span></p>
+              <p style="margin-top: 6px;"><strong>Airflow:</strong> <span id="resAirflow"></span></p>
+              <p style="margin-top: 6px; font-size: 0.8rem; color: #64748b;"><i class="fa-solid fa-temperature-half"></i> <span id="resTemp"></span></p>
+            </div>
+
+            <div class="rec-card">
+              <div class="rec-header">
+                <div class="rec-icon icon-brown"><i class="fa-solid fa-cubes-stacked"></i></div>
+                <span>Soil & Nutritional Needs</span>
+              </div>
+              <p><strong>Soil Type:</strong> <span id="resSoil"></span></p>
+              <p style="margin-top: 6px;"><strong>pH Target:</strong> <span id="resSoilPh"></span></p>
+              <p style="margin-top: 6px;"><strong>Fertilizer:</strong> <span id="resFertilizer"></span></p>
+            </div>
+
+            <div class="rec-card">
+              <div class="rec-header">
+                <div class="rec-icon icon-green"><i class="fa-solid fa-shield-virus"></i></div>
+                <span>Treatment & Control Measures</span>
+              </div>
+              <p><strong>Organic Remedies:</strong></p>
+              <ul id="resOrganicTreatments" style="margin-bottom: 8px;"></ul>
+              <p><strong>Conventional Options:</strong></p>
+              <ul id="resChemicalTreatments"></ul>
+            </div>
+          </div>
+
+          <div class="checklist-container">
+            <div class="checklist-title">
+              <span><i class="fa-solid fa-list-check" style="color: var(--primary-color); margin-right: 6px;"></i> Step-by-Step Care Checklist</span>
+              <span id="checklistProgress" style="font-size: 0.8rem; color: #64748b; font-weight: 500;">0/4 Done</span>
+            </div>
+            <div id="checklistItems"></div>
+          </div>
+
+          <div class="rec-card" style="margin-bottom: 20px;">
+            <div class="rec-header">
+              <div class="rec-icon icon-green"><i class="fa-solid fa-seedling"></i></div>
+              <span>Long-Term Health & Disease Prevention</span>
+            </div>
+            <ul id="resPreventionList"></ul>
+          </div>
+
+          <div class="action-toolbar">
+            <button class="btn-export" id="btnPrintReport"><i class="fa-solid fa-file-pdf"></i> Export / Print Care Sheet</button>
+            <button class="btn-ask-doc" id="btnOpenDoctor"><i class="fa-solid fa-comment-medical"></i> Ask Plant Doctor AI</button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-overlay" id="doctorModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 style="display:flex; align-items:center; gap:8px; font-size:1.1rem; color:#1e293b;">
+          <i class="fa-solid fa-user-doctor" style="color: var(--primary-color);"></i> Plant Doctor Assistant
+        </h3>
+        <button id="btnCloseDoctor" style="background:none; border:none; font-size:1.2rem; cursor:pointer; color:#64748b;">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="chat-history" id="doctorChatHistory">
+        <div class="chat-bubble bubble-doc">
+          Hello! I am your botanical health assistant. Ask me anything about leaf yellowing, organic sprays, fertilizer ratios, or symptoms!
+        </div>
+      </div>
+
+      <div class="chat-input-row">
+        <input type="text" class="chat-input" id="doctorInput" placeholder="e.g. Why are lower leaves turning yellow?">
+        <button class="btn-send" id="btnSendDoctor"><i class="fa-solid fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
